@@ -1,0 +1,74 @@
+.credit-card-form-parent {
+  padding-top: 170px;
+
+  .credit-card-form {
+    text-align: center;
+    position: relative;
+    background-color: var(--color-white);
+    border-radius: 6px;
+    height: 362px;
+    width: 370px;
+    padding: 22px;
+    margin: auto;
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    box-shadow: 1px 1px 26px #888888;
+    .form-section {
+      // position: absolute;
+      // top: 153px;
+      // right: 37px;
+      // left: 30px;
+      .ant-form-vertical {
+        text-align: left;
+        .ant-btn {
+            background-color: var(--color-button);
+            width: 100%;
+            color: var(--color-white);
+            border-radius: 4px;
+            margin-top: 10px;
+            height: 35px;
+          }
+        .form-bottom-portion {
+          display: flex;
+          justify-content: space-between;
+          .ant-select-arrow {
+            top: 25px !important;
+          }
+          .ant-select-selector {
+            height: 30px;
+          }
+          .ant-picker {
+            height: 30px;
+            width: 95px;
+            margin-top: 25px;
+          }
+        }
+        .ant-form-item-label {
+          padding: 0 0 2px 0 !important;
+        }
+        .ant-form-item label {
+          font-size: 12px !important;
+        }
+        .ant-form-item {
+          margin-bottom: 0px !important;
+        }
+        .ant-form-item-control {
+          padding-bottom: 10px;
+
+          .ant-input {
+            width: 100%;
+            border: 1px solid var(--color-border-grey);
+            border-radius: 3px;
+            height: 30px;
+          }
+          .ant-input:focus-visible {
+            // border: none !important;
+            border: 1px solid var(--color-blue);
+            box-shadow: 1px 1px 2px var(--color-blue);
+            // outline: none !important;
+          }
+        }
+      }
+    }
+  }
+}
